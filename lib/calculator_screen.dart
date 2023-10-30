@@ -13,8 +13,8 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
     ['sin', const Color.fromRGBO(240, 181, 1, 1), Colors.white],
     ['cos', const Color.fromRGBO(240, 181, 1, 1), Colors.white],
     ['tan', const Color.fromRGBO(240, 181, 1, 1), Colors.white],
-    ['log', const Color.fromRGBO(240, 181, 1, 1), Colors.white],
-    ['ln', const Color.fromRGBO(240, 181, 1, 1), Colors.white],
+    ['e^', const Color.fromRGBO(240, 181, 1, 1), Colors.white],
+    ['√', const Color.fromRGBO(240, 181, 1, 1), Colors.white],
     ['C', const Color.fromRGBO(43, 162, 76, 1), Colors.white],
     ['Del', const Color.fromRGBO(228, 62, 43, 1), Colors.white],
     ['%', const Color.fromRGBO(59, 125, 237, 1), Colors.white],
@@ -37,7 +37,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
     ['^', const Color.fromRGBO(59, 125, 237, 1), Colors.white],
     ['(', const Color.fromRGBO(59, 125, 237, 1), Colors.white],
     [')', const Color.fromRGBO(59, 125, 237, 1), Colors.white],
-    ['√', const Color.fromRGBO(59, 125, 237, 1), Colors.white],
+    ['e', const Color.fromRGBO(240, 181, 1, 1), Colors.white],
     ['pi', const Color.fromRGBO(240, 181, 1, 1), Colors.white],
     ['=', const Color.fromRGBO(59, 125, 237, 1), Colors.white],
   ];
@@ -141,10 +141,18 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                       setState(() {
                         input += '3.14';
                       });
-                    } else if (symbols[index][0] == 'log' ||
-                        symbols[index][0] == 'ln' ||
-                        symbols[index][0] == '√') {
-                      null;
+                    } else if (symbols[index][0] == 'e^') {
+                      setState(() {
+                        input += '2.72^(';
+                      });
+                    } else if (symbols[index][0] == 'e') {
+                      setState(() {
+                        input += '2.72';
+                      });
+                    } else if (symbols[index][0] == '√') {
+                      setState(() {
+                        input += '^(1/2)';
+                      });
                     } else {
                       setState(() {
                         input += symbols[index][0];
