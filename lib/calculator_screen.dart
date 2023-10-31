@@ -47,12 +47,21 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          'Calculator'.toUpperCase(),
-          style: const TextStyle(
-            fontWeight: FontWeight.w600,
-            letterSpacing: 2,
-          ),
+        title: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Image.asset(
+              'images/playstore.png',
+              width: 40,
+            ),
+            const Text(
+              'My Calculator',
+              style: TextStyle(
+                fontWeight: FontWeight.w600,
+                letterSpacing: 2,
+              ),
+            )
+          ],
         ),
         elevation: 0,
         centerTitle: true,

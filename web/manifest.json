@@ -1,6 +1,6 @@
 {
-    "name": "calculator_app",
-    "short_name": "calculator_app",
+    "name": "my_calculator",
+    "short_name": "my_calculator",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
