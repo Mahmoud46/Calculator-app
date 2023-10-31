@@ -1,4 +1,5 @@
+<p align="center"><img src="https://raw.githubusercontent.com/Mahmoud46/Calculator-app/main/images/playstore.png" width="80"></p>
 <h1 align="center">My Calculator</h1>
-
+<p align="center"><img src="https://raw.githubusercontent.com/Mahmoud46/Calculator-app/main/Gold%20iPhone%20XS%20Plus%20left%20faced.jpg"></p>
 <p align="center"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer">  </a> </p>
 <p align="center"><a href="https://github.com/Mahmoud46/Calculator-app/blob/main/My%20Calculator.apk" target="_blank"><img src='https://purepng.com/public/uploads/large/purepng.com-downloads-icon-android-kitkatsymbolsiconsapp-iconsandroid-kitkatandroid-44-721522597618czkgg.png' width="60"></a></p>
